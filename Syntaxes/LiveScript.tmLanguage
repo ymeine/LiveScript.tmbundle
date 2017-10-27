@@ -295,7 +295,7 @@
 				return|break|continue|throw
 				|try|if|while|for|for\s+own|switch|unless|until
 				|catch|finally|else|nobreak|case|default|fallthrough|when|otherwise|then
-				|yield
+				|yield|await
 				)(?!\-|\s*:)\b
 			</string>
 			<key>name</key>
@@ -340,7 +340,7 @@
 				|of|or|otherwise
 				|let|var|loop
 				|match
-				|by|yield
+				|by|yield|await
 				)(?!\-|\s*:)\b
 			</string>
 			<key>name</key>
