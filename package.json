@@ -1,0 +1,48 @@
+{
+	"name": "livescript",
+	"version": "0.1.1",
+	"publisher": "ymeine",
+	"displayName": "LiveScript Language Support",
+	"keywords": [
+		"livescript",
+		"LiveScript"
+	],
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "livescript",
+				"extensions": [
+					".ls"
+				],
+				"aliases": [
+					"LiveScript",
+					"livescript"
+				],
+				"configuration": "./livescript.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "livescript",
+				"scopeName": "source.livescript",
+				"path": "./syntaxes/LiveScript.tmLanguage"
+			}
+		],
+		"debuggers": [
+			{
+				"type": "node",
+				"enableBreakpointsFor": {
+					"languageIds": [
+						"livescript"
+					]
+				}
+			}
+		]
+	}
+}
