@@ -1,0 +1,19 @@
+{
+	"schema_version": "3.0.0",
+	"packages": [
+		{
+			"name": "LiveScript",
+			"description": "LiveScript syntax highlighting (fork)",
+			"author": "Yannick Meine (ymeine)",
+			"details": "https://github.com/ymeine/LiveScript.tmbundle",
+			"releases": [
+				{
+					"version": "1.0.0",
+					"date": "2017-10-27 15:53:33",
+					"sublime_text": "*",
+					"url": "https://github.com/ymeine/LiveScript.tmbundle/archive/master.zip"
+				}
+			]
+		}
+	]
+}
