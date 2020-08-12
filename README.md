@@ -1,41 +1,26 @@
-# LiveScript.tmbundle
-A [TextMate](http://macromates.com), Sublime Text and Chocolat bundle for [LiveScript](http://gkz.github.com/LiveScript/), fork of [CoffeeScript](http://coffeescript.org).
+# History
 
-Initially based on coffeescript.tmbundle.
+## 2020-08-12T18:21:07+02:00@Europe/Paris — How to setup local channel
 
-
-## Installation
-
-* TextMate: Pop open your favorite shell and run...
-
-    cd ~/Library/Application\ Support/TextMate/Bundles/
-    git clone git://github.com/paulmillr/LiveScript.tmbundle.git
-    osascript -e 'tell app "TextMate" to reload bundles'
-
-* Sublime: Install [Package Control](http://wbond.net/sublime_packages/package_control) and install bundle there.
+- [sublimetext3 - Using Package control with an offline repo - Stack Overflow](https://stackoverflow.com/questions/50650268/using-package-control-with-an-offline-repo)
+- [How to create an https server? &vert; Node.js](https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTPS-server/)
+- [ST3(3126): Package Control SSL Cert Invalid Errors, reinstall didn't help - Technical Support - Sublime Forum](https://forum.sublimetext.com/t/st3-3126-package-control-ssl-cert-invalid-errors-reinstall-didnt-help/23539/7)
 
 
-## License
-The MIT License (MIT)
 
-Copyright (c) 2012 Paul Miller (http://paulmillr.com/)
 
-Copyright (c) 2012 Jeremy Ashkenas
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+# Installation
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+## Sublime Text
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+- make sure to uninstall any previously installed version
+- push all the wanted changes to `master`
+- start local server with `server.bat`
+- make sure channel is added: `http://127.0.0.1:8080/channel.json`
+- make sure it is first, if not remove and add again: `https://packagecontrol.io/channel_v3.json`
+
+## Visual Studio Code
+
+- `build_for_vscode.bat`
+- `codium --install-extension livescript-0.1.1.vsix` or `code --install-extension livescript-0.1.1.vsix`: adapt package name. Can also be done manually in the software

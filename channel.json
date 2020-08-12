@@ -1,0 +1,28 @@
+{
+    "schema_version": "3.0.0",
+
+    "repositories": [
+        "http://127.0.0.1:8080/repository.json"
+    ],
+
+    "packages_cache": {
+    	"http://127.0.0.1:8080/repository.json": [
+			{
+				"name": "LiveScript",
+				"description": "LiveScript syntax highlighting",
+				"author": "Yannick Meine (ymeine)",
+				"details": "https://github.com/ymeine/LiveScript.tmbundle",
+				"releases": [
+					{
+						"version": "1.0.0",
+						"date": "2017-10-27 15:53:33",
+						"platforms": "*",
+						"sublime_text": "*",
+						"url": "https://github.com/ymeine/LiveScript.tmbundle/archive/master.zip"
+					}
+				],
+				"homepage": "https://github.com/ymeine/LiveScript.tmbundle"
+			}
+		]
+    }
+}
